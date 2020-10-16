@@ -5,7 +5,9 @@
   
 struct Node { 
     int data; 
-    struct Node* next; 
+    struct Node* next,prev;
+    
+ 
 }; 
   
 // Program to create a simple linked 
@@ -84,7 +86,7 @@ int main()
              | 
              |  
         +---+---+     +---+---+       +----+------+ 
-        | 1  | o----->|  2  | o-----> |  3 | NULL | 
+        | 1  | O----->|  2  | O-----> |  3 | NULL | 
         +---+---+     +---+---+       +----+------+        
      
       
