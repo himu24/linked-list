@@ -8,9 +8,11 @@ int lcm(int a, int b)
 }
 int main()
 {
-	int a,b,l;
+	int a,b,l,c;
 	scanf("%d%d",&a,&b);
 	l= lcm(a,b);
+	c=a+b;
 	printf("lcm = %d",l);
+	printf("\nthere sum is %d",c);
 	return 0;
 }
