@@ -4,10 +4,9 @@ int arr[100],n;
 
 void swap(int a,int b)
 {
-	int k;
-	k=arr[a];
-	arr[a]=arr[b];
-	arr[b]=k;
+	arr[a]=arr[a]+arr[b];
+	arr[b]=arr[a]-arr[b];
+	arr[a]=arr[a]-arr[b];
 }
 void printfun()
 {
