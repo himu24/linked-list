@@ -61,7 +61,7 @@ void deleteheap()
 		arr[i]=k;
 	}
 }
-int main()
+void main()
 {
 	int i;
 	scanf("%d",&n);
@@ -75,5 +75,5 @@ int main()
 	for(i=1;i<=n;i++)
 	printf("%d ",arr[i]);
 	
-	return 0;
+	
 }
