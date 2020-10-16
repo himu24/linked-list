@@ -1,4 +1,5 @@
-﻿#include<stdio.h>
+#include<stdio.h>
+//it is used to determine the area to be covered by painting
 int main()
 {
 	int r,c,i,j,ar=0;
